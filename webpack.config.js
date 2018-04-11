@@ -10,9 +10,6 @@ module.exports = {
   plugins: [
     new HTMLWebpackPlugin({
       title: 'Code Splitting'
-    }),
-    new webpack.optimize.CommonsChunkPlugin({
-      name: 'common' // 指定公共 bundle 的名称。
     })
   ],
   output: {
